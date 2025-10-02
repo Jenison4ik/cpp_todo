@@ -12,3 +12,25 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_btnAdd_clicked()
+{
+    QListWidgetItem* item = new QListWidgetItem(ui->txtTask->text(),ui->listWidget);
+    item->setFlags(item->flags()| Qt::ItemIsEditable);
+    ui->listWidget->addItem(item);
+    ui->txtTask->clear();
+    ui->txtTask->setFocus();
+}
+
+
+void MainWindow::on_btnRemove_clicked()
+{
+
+}
+
+
+void MainWindow::on_btnRemoveAll_clicked()
+{
+
+}
+
