@@ -85,4 +85,3 @@
 Запустите файл `cpp_todo.exe` (Windows) или `./cpp_todo` (Linux) из папки сборки.
 
 Solvev Evgenii 2025
----
